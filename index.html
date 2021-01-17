@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>ID Card</title>
+
+  </head>
+
+  <body>
+  
+    <h1>Let's create an ID card!</h1>
+
+      <div class="form">
+    
+      <form>
+    
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName"><br>
+
+    
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName"></br>
+    
+        <label for="age">Age:</label><br>
+        <input type="text" id="age"><br>
+    
+        <label for="phoneNumber">Phone Number:</label><br>
+        <input type="text" id="phoneNumber"><br>
+    
+        <label for="address">Address:</label><br>
+        <input type="text" id="address"><br>
+    
+        <button type="button" onclick="idCard()">Submit!</button>
+    
+      </form>
+    
+      </div>
+
+    <div id="idCard">
+
+      <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+
+      <p id="postFullName"></p>
+
+      <p class="align" id="postAge"></p>
+
+      <p class="align" id="postPhoneNumber"></p>
+
+      <p class="align" id="postAddress"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+
+  <footer>Copyright: Kyle Shannon | 2021</footer>
+
+</html>
